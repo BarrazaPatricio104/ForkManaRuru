@@ -27,23 +27,27 @@ body {
   opacity: 0.8;
 }
 
+#Galeria1 {
+  position: relative;
+}
+
 /* Cajas superiores Galería 1 */
 
 #Img1-Gal1 {
   position: relative;
-  left: 200px;
+  left: 210px;
 }
 
 #Img2-Gal1 {
   position: absolute;
   left: 530px;
-  top: 8px;
+  top: 0px;
 }
 
 #Img3-Gal1 {
   position: absolute;
   left: 850px;
-  top: 8px;
+  top: 0px;
 }
 
 /* Texto del centro de la primera galería */
@@ -54,7 +58,7 @@ body {
   height: 210px;
   position: absolute;
   left: 530px;
-  top: 330px;
+  top: 320px;
 }
 
 .Texto-Gal {
@@ -63,12 +67,7 @@ body {
   text-align: center;
 }
 
-#RuruEnlace {
-  text-decoration: none;
-  color: white;
-}
-
-#ManakaEnlace {
+.EnlacesDeNombre {
   text-decoration: none;
   color: white;
 }
@@ -77,20 +76,20 @@ body {
 
 #Img4-Gal1 {
   position: relative;
-  left: 200px;
+  left: 210px;
   top: 10px;
 }
 
 #Img5-Gal1 {
   position: absolute;
   left: 530px;
-  top: 562px;
+  top: 554px;
 }
 
 #Img6-Gal1 {
   position: absolute;
   left: 850px;
-  top: 442px;
+  top: 434px;
 }
 
 footer {
