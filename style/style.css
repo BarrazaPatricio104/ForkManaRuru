@@ -5,7 +5,101 @@
 /* Aquí empieza Eri */
 
 body {
-    background-color: black;
+  background-color: #ffa040;
+  background-image: linear-gradient(90deg, #ffa040 0%, #ff40a0 100%);
+}
+
+/* Tamaño de imagen galería 1 y hover */
+
+.Img-Gal1 {
+  width: 300px;
+  height: 420px;
+  border-radius: 5px;
+}
+
+.ImgShort-Gal1 {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.Opacidad-Gal1:hover {
+  opacity: 0.8;
+}
+
+#Galeria1 {
+  position: relative;
+}
+
+/* Cajas superiores Galería 1 */
+
+#Img1-Gal1 {
+  position: relative;
+  left: 210px;
+}
+
+#Img2-Gal1 {
+  position: absolute;
+  left: 530px;
+  top: 0px;
+}
+
+#Img3-Gal1 {
+  position: absolute;
+  left: 850px;
+  top: 0px;
+}
+
+/* Texto del centro de la primera galería */
+
+#CajaTexto-Gal1 {
+  background: linear-gradient(0deg, #ff40a0 49%, #ffa040 50%);
+  width: 300px;
+  height: 210px;
+  position: absolute;
+  left: 530px;
+  top: 320px;
+}
+
+.Texto-Gal {
+  padding: 25px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.EnlacesDeNombre {
+  text-decoration: none;
+  color: white;
+}
+
+/* Cajas inferiores Galería 1 */
+
+#Img4-Gal1 {
+  position: relative;
+  left: 210px;
+  top: 10px;
+}
+
+#Img5-Gal1 {
+  position: absolute;
+  left: 530px;
+  top: 554px;
+}
+
+#Img6-Gal1 {
+  position: absolute;
+  left: 850px;
+  top: 434px;
+}
+
+footer {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background-color: black;
+  margin: -8px;
+  padding: 10px;
+  margin-top: 20px;
 }
 
 /* Aquí Termina Eri */
