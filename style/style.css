@@ -1,5 +1,27 @@
 /* Aquí empieza Patrick */
+#seg1 {
+    width: 900px;
+    height: 500px;
+}
 
+#bx1 {
+    width: 96%;
+    height: 85%;
+    margin: auto;
+}
+
+.ibx {
+    width: 31%;
+    height: 85%;
+    margin: 1%;
+    border-radius: 20px;
+}
+
+#titp {
+    text-align: center;
+    text-shadow: 0px 2px 2px rgb(46, 44, 44);
+    font-family:sans-serif;
+}
 /* Aquí Termina Patrick */
 
 /* Aquí empieza Eri */
