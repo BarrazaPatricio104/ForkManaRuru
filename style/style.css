@@ -29,8 +29,8 @@
 /* Aquí empieza Eri */
 
 body {
-  background-color: #8c004b;
-  background-image: linear-gradient(315deg, #8c004b 0%, #ff0080 46%, #ff8000 100%);
+  background-color: #ffa040;
+  background-image: linear-gradient(315deg, #ffa040 0%, #ff90c8 88%);
 
 }
 
@@ -112,6 +112,13 @@ body {
 
 /* Animación del fondo del contador */
 
+.ContadorFoto:hover {
+  background-image: url(https://i.ibb.co/q7KL1ZQ/Fotos-Mana-Ruru.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+}
+
 .ContadorAnimado {
   animation-name: Contador-Animado;
   animation-duration: 60s;
@@ -135,16 +142,18 @@ body {
 
 .Titulo-Contador {
   font-size: 28px;
-
+  color: white;
 }
 
 .Subtitulo-Contador {
   font-size: 20px;
   font-weight: bold;
+  color: white;
 }
 
 .Respuestas-Contador {
   font-size: 20px;
+  color: white;
 }
 
 /* Cajas contador info */
@@ -189,14 +198,16 @@ body {
 #Titulo-LoveStory {
   font-family: 'Lora', serif;
   font-weight: bold;
-  color: #01ff00;
+  color: #9040ff;
   font-size: 35px;
+  text-shadow: 1px 1px 2px #5600cc;
 }
 
 #SubTitulo-LoveStory {
   font-family: 'Lora', serif;
   font-style: italic;
-  color: #00FFFF;
+  color: #40ffee;
+  text-shadow: 3px 3px 6px #008277;
 }
 
 #Linea-LoveStory {
@@ -281,23 +292,27 @@ body {
   top: 336px;
 }
 
-#Manaka-Vertical {
+.Manaka-Vertical {
   text-align: center;
   font-size: 15px;
   font-weight: bold;
   position: relative;
   right: 80px;
   top: 5px;
+  text-shadow: 1px 1px 5px black;
+  color: white;
 
 }
 
-#Ruru-Vertical {
+.Ruru-Vertical {
   text-align: center;
   font-size: 15px;
   font-weight: bold;
   left: 80px;
   bottom: 200px;
   position: relative;
+  text-shadow: 1px 1px 5px black;
+  color: white;
 }
 
 
@@ -326,7 +341,7 @@ body {
 /* Fondo de caja con animación */
 
 #Cuadro-De-Animacion {
-  height: 250px;
+  height: 260px;
   width: auto;
   margin: 0px -8px 15px -8px;
   position: relative;
@@ -369,6 +384,7 @@ body {
 
 .TituloJuiceGigante {
   text-align: center;
+  text-decoration: none;
 }
 
 footer {
@@ -377,7 +393,7 @@ footer {
   text-align: center;
   background-color: black;
   padding: 10px;
-  margin: 20px -8px -8px -8px;
+  margin: 30px -8px -8px -8px;
 }
 
 /* Aquí Termina Eri */
