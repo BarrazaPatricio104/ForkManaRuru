@@ -40,12 +40,14 @@ body {
   width: 300px;
   height: 420px;
   border-radius: 5px;
+  margin: 1%;
 }
 
 .ImgShort-Gal1 {
   width: 300px;
   height: 300px;
   border-radius: 5px;
+  margin: 1%;
 }
 
 .Opacidad-Gal1:hover {
@@ -54,25 +56,16 @@ body {
 
 #Galeria1 {
   position: relative;
+  margin: auto;
+  height: 875px;
+  width: 966px;
 }
 
-/* Cajas superiores Galería 1 */
-
-#Img1-Gal1 {
-  position: relative;
-  left: 210px;
-}
+/* Caja corta superior Galería 1 */
 
 #Img2-Gal1 {
-  position: absolute;
-  left: 530px;
-  top: 0px;
-}
-
-#Img3-Gal1 {
-  position: absolute;
-  left: 850px;
-  top: 0px;
+  position: relative;
+  bottom: 120px;
 }
 
 /* Texto del centro de la primera galería */
@@ -82,14 +75,13 @@ body {
   width: 300px;
   height: 210px;
   position: absolute;
-  left: 530px;
-  top: 320px;
+  left: 334px;
+  top: 336px;
 }
 
 .TextoGal1-Animado:hover {
   zoom: 130%;
 }
-
 
 .Texto-Gal {
   padding: 25px;
@@ -102,34 +94,243 @@ body {
   color: white;
 }
 
-/* Cajas inferiores Galería 1 */
+/* Animación de fondo en caja con numeros */
 
-#Img4-Gal1 {
+#Contador {
+  height: 350px;
+  width: auto;
+  margin: 25px -8px 0px -8px;
   position: relative;
-  left: 210px;
-  top: 10px;
 }
 
-#Img5-Gal1 {
-  position: absolute;
-  left: 530px;
-  top: 554px;
+#CajaContadorSize {
+  width: 950px;
+  height: 320px;
+  margin: auto;
+  padding: 15px;
 }
 
-#Img6-Gal1 {
-  position: absolute;
-  left: 850px;
-  top: 434px;
+/* Animación del fondo del contador */
+
+.ContadorAnimado {
+  animation-name: Contador-Animado;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
 }
+
+@keyframes Contador-Animado {
+  0% {
+    background-color: #ff40a0;
+    background-image: linear-gradient(0deg, #ff40a0 50%, #ffa040 51%);
+  }
+
+  100% {
+    background-color: #ff40a0;
+    background-image: linear-gradient(180deg, #ff40a0 50%, #ffa040 51%);
+  }
+
+}
+
+/* Texto del contador */
+
+.Titulo-Contador {
+  font-size: 28px;
+
+}
+
+.Subtitulo-Contador {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Respuestas-Contador {
+  font-size: 20px;
+}
+
+/* Cajas contador info */
+
+.Nombre-Titulo-Info {
+  text-align: center;
+  padding-top: 5px;
+}
+
+.Caja-Contador-Inicio {
+  text-align: center;
+  margin-right: 65%;
+}
+
+.Caja-Contador-Medio {
+  text-align: center;
+  margin-top: -9%;
+}
+
+.Caja-Contador-Final {
+  text-align: center;
+  margin-left: 65%;
+  margin-top: -9%;
+}
+
+/* Sección 3, imagen circular y texto */
+
+#Caja-ManaRuru-LoveStory {
+  margin: auto;
+  color: white;
+  width: 800px;
+  height: 700px;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+}
+
+#Caja-gif {
+  margin: auto;
+}
+
+#Titulo-LoveStory {
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  color: #01ff00;
+  font-size: 35px;
+}
+
+#SubTitulo-LoveStory {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  color: #00FFFF;
+}
+
+#Linea-LoveStory {
+  margin: auto;
+  background-color: black;
+  width: 150px;
+  height: 3px;
+}
+
+#Texto-LoveStory {
+  font-style: italic;
+}
+
+#ManaRuruGif {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+#marco-de-flores {
+  background-image: url(https://i.ibb.co/zXrSCV2/marco-de-flores.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 256px;
+  height: 256px;
+  position: absolute;
+  left: 270px;
+}
+
+#rosas-inferiores {
+  background-image: url(https://i.ibb.co/WGRHnTg/rosas-inferiores.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 320px;
+}
+
+/* Aquí comienza la galería 2 */
+
+.Img-Gal2 {
+  width: 300px;
+  height: 420px;
+  border-radius: 5px;
+  margin: 1%;
+}
+
+.ImgShort-Gal2 {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  margin: 1%;
+}
+
+.Opacidad-Gal2:hover {
+  opacity: 0.8;
+}
+
+#Galeria2 {
+  position: relative;
+  margin: auto;
+  height: 875px;
+  width: 966px;
+}
+
+/* Caja corta superior Galería 1 */
+
+#Img2-Gal2 {
+  position: relative;
+  bottom: 120px;
+}
+
+/* Texto del centro de la segunda galería */
+
+#CajaTexto-Gal2 {
+  background-image: linear-gradient(90deg, #ff40a0 48%, #ffa040 50%);
+  width: 300px;
+  height: 210px;
+  position: absolute;
+  left: 334px;
+  top: 336px;
+}
+
+#Manaka-Vertical {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  position: relative;
+  right: 80px;
+  top: 5px;
+
+}
+
+#Ruru-Vertical {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  left: 80px;
+  bottom: 200px;
+  position: relative;
+}
+
+
+.CajaTextoAnimadaGal2:hover {
+  width: 300px;
+  height: 210px;
+  cursor: grab;
+  animation-name: Sorpresa-Animada;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes Sorpresa-Animada {
+  0% {
+    background-image: url(https://i.ibb.co/M9VvSDc/image.png);
+    background-size: cover;
+  }
+
+  100% {
+    background-image: url(https://i.ibb.co/NWCt3Vj/image.png);
+    background-size: cover;
+  }
+}
+
 
 /* Fondo de caja con animación */
 
 #Cuadro-De-Animacion {
-  height: 100px;
+  height: 250px;
   width: auto;
   margin: 0px -8px 15px -8px;
   position: relative;
-  bottom: 145px;
+  bottom: 20px;
 }
 
 /* Animación del Titulo Juice=Juice */
@@ -170,110 +371,6 @@ body {
   text-align: center;
 }
 
-/* Animación de fondo en caja con numeros */
-
-#Contador {
-  height: 350px;
-  width: auto;
-  margin: 25px -8px 0px -8px;
-  position: relative;
-}
-
-/* Animación del fondo del contador */
-
-.ContadorAnimado {
-  animation-name: Contador-Animado;
-  animation-duration: 60s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes Contador-Animado {
-  0% {
-    background-color: #ff40a0;
-    background-image: linear-gradient(0deg, #ff40a0 50%, #ffa040 51%);
-  }
-
-  100% {
-    background-color: #ff40a0;
-    background-image: linear-gradient(180deg, #ff40a0 50%, #ffa040 51%);
-  }
-
-}
-
-/* Texto del contador */
-
-.Titulo-Contador {
-  font-size: 28px;
-
-}
-
-.Subtitulo-Contador {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.Respuestas-Contador {
-  font-size: 20px;
-}
-
-/* Cajas Manaka contador info */
-
-#Manaka-Titulo-Info {
-  position: absolute;
-  top: 5px;
-  left: 570px;
-}
-
-#Caja-Contador1 {
-  position: absolute;
-  left: 200px;
-  text-align: center;
-  top: 50px;
-}
-
-#Caja-Contador2 {
-  position: absolute;
-  left: 550px;
-  text-align: center;
-  top: 50px;
-}
-
-#Caja-Contador3 {
-  position: absolute;
-  left: 950px;
-  text-align: center;
-  top: 50px;
-}
-
-/* Cajas Ruru contador info */
-
-#Ruru-Titulo-Info {
-  position: absolute;
-  top: 170px;
-  left: 570px;
-}
-
-#Caja-Contador4 {
-  position: absolute;
-  left: 200px;
-  top: 220px;
-  text-align: center;
-}
-
-#Caja-Contador5 {
-  position: absolute;
-  left: 550px;
-  top: 220px;
-  text-align: center;
-}
-
-#Caja-Contador6 {
-  position: absolute;
-  left: 950px;
-  top: 220px;
-  text-align: center;
-}
-
 footer {
   color: white;
   font-weight: bold;
@@ -281,24 +378,6 @@ footer {
   background-color: black;
   padding: 10px;
   margin: 20px -8px -8px -8px;
-}
-
-/* Sección 3, imagen circular y texto */
-
-#Caja-ManaRuru-LoveStory {
-  text-align: center;
-  color: white;
-  font-size: 18px;
-}
-
-#Caja-gif {
-  margin: auto;
-}
-
-#ManaRuruGif {
-  border-radius: 50%;
-  width: 250px;
-  height: 250px;
 }
 
 /* Aquí Termina Eri */
