@@ -1,12 +1,230 @@
 /* Aquí empieza Patrick */
 
+#header {
+  background-color: black;
+  margin: -8px;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+}
+
+#tituloheader {
+  color: white;
+  font-size: 40px;
+  letter-spacing: 10px;
+  position: relative;
+  left: 30px;
+  bottom: 10px;
+  animation-name: letrasheader;
+  animation-duration: 4s;
+  animation-fill-mode: inherit;
+}
+
+@keyframes letrasheader {
+  0% {
+    letter-spacing: 90px;
+  }
+
+  100% {
+    letter-spacing: 10px;
+  }
+}
+
+#imgheader {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 498px;
+  animation-name: imgcontrol;
+  animation-duration: 4s;
+  animation-fill-mode: inherit;
+}
+
+@keyframes imgcontrol {
+  0% {
+    left: 200px;
+  }
+
+  100% {
+    left: 520px;
+  }
+}
+
+#parte1 {
+  width: 1005px;
+  height: 540px;
+  margin: auto;
+}
+
+#cajap1 {
+  width: 96%;
+  height: 85%;
+  margin: auto;
+}
+
+.imagendecaja {
+  width: 31%;
+  height: 85%;
+  margin: 1%;
+  border-radius: 5px;
+}
+
+.imagendecaja:hover {
+  width: 31%;
+  height: 85%;
+  margin: 1%;
+  border-radius: 5px;
+  opacity: 0.8;
+}
+
+.lineasobretexto {
+  margin: auto;
+  width: 200px;
+  border-bottom: white;
+  border-bottom-width: 3px;
+  border-style: solid;
+  border-color: white;
+}
+
+#titulocentral1 {
+  text-align: center;
+  text-shadow: 0px 3px 3px rgb(27, 26, 26);
+  color: white;
+  font-size: 40px;
+}
+
+#parte2 {
+  width: 1005px;
+  height: 350px;
+  margin: auto;
+}
+
+#titulocentral2 {
+  text-align: center;
+  text-shadow: 0px 3px 3px rgb(27, 26, 26);
+  color: white;
+  font-size: 40px;
+}
+
+#seccion3 {
+  margin: auto;
+}
+
+#parte3 {
+  width: 1349px;
+  height: 640px;
+  margin-left: -8px;
+  animation-duration: 15s;
+  animation-name: hilera;
+  animation-iteration-count: infinite;
+}
+
+#titulocentral3 {
+  text-align: center;
+  text-shadow: 0px 3px 3px rgb(27, 26, 26);
+  color: white;
+  font-size: 40px;
+}
+
+@keyframes hilera {
+  0% {
+    background-image: url("https://i.ibb.co/HVyb1zJ/Manaruru4.jpg");
+    opacity: 0.9;
+  }
+
+  35% {
+    background-image: url("https://i.ibb.co/2vqgr3b/Manaruru5.jpg");
+    opacity: 0.9;
+  }
+
+  70% {
+    background-image: url("https://i.ibb.co/Ct68wr3/Manaruru6.jpg");
+    opacity: 0.9;
+  }
+
+  100% {
+    background-image: url("https://i.ibb.co/HVyb1zJ/Manaruru4.jpg");
+    opacity: 0.9;
+  }
+}
+
+.frase {
+  font-size: 40px;
+  color: rgb(247, 230, 230);
+  text-shadow: 0px 2px 2px black;
+  text-align: right;
+  position: relative;
+  right: 5%;
+  top: 5%;
+}
+
+.firmafrase {
+  font-size: 25px;
+  color: rgb(247, 230, 230);
+  text-shadow: 0px 2px 2px black;
+  text-align: right;
+  position: relative;
+  right: 5%;
+}
+
+#parte4 {
+  width: 1005px;
+  height: 750px;
+  margin: auto;
+}
+
+#textoparte4 {
+  height: 300px;
+  width: 1005px;
+}
+
+#caja3img {
+  width: 1005px;
+  height: 340px;
+  margin: auto;
+}
+
+.trioimg {
+  width: 300px;
+  height: 300px;
+  margin: 15px;
+  border-radius: 100%;
+}
+
+#subtrioimg1 {
+  font-size: 35px;
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: -1px 0px 10px black;
+  margin: 20px 0px 0px 125px;
+}
+
+#subtrioimg2 {
+  font-size: 35px;
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: -1px 0px 10px black;
+  margin: 20px 0px 0px 200px;
+}
+
+#subtrioimg3 {
+  font-size: 35px;
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: -1px 0px 10px black;
+  margin: 20px 0px 0px 175px;
+}
+
 /* Aquí Termina Patrick */
 
 /* Aquí empieza Eri */
 
 body {
   background-color: #ffa040;
-  background-image: linear-gradient(90deg, #ffa040 0%, #ff40a0 100%);
+  background-image: linear-gradient(315deg, #ffa040 0%, #ff90c8 88%);
+
 }
 
 /* Tamaño de imagen galería 1 y hover */
@@ -15,12 +233,14 @@ body {
   width: 300px;
   height: 420px;
   border-radius: 5px;
+  margin: 1%;
 }
 
 .ImgShort-Gal1 {
   width: 300px;
   height: 300px;
   border-radius: 5px;
+  margin: 1%;
 }
 
 .Opacidad-Gal1:hover {
@@ -29,25 +249,16 @@ body {
 
 #Galeria1 {
   position: relative;
+  margin: auto;
+  height: 875px;
+  width: 966px;
 }
 
-/* Cajas superiores Galería 1 */
-
-#Img1-Gal1 {
-  position: relative;
-  left: 210px;
-}
+/* Caja corta superior Galería 1 */
 
 #Img2-Gal1 {
-  position: absolute;
-  left: 530px;
-  top: 0px;
-}
-
-#Img3-Gal1 {
-  position: absolute;
-  left: 850px;
-  top: 0px;
+  position: relative;
+  bottom: 120px;
 }
 
 /* Texto del centro de la primera galería */
@@ -57,14 +268,19 @@ body {
   width: 300px;
   height: 210px;
   position: absolute;
-  left: 530px;
-  top: 320px;
+  left: 334px;
+  top: 336px;
+}
+
+.TextoGal1-Animado:hover {
+  zoom: 130%;
 }
 
 .Texto-Gal {
   padding: 25px;
   font-size: 30px;
   text-align: center;
+  text-shadow: 1px 1px 5px black;
 }
 
 .EnlacesDeNombre {
@@ -72,24 +288,300 @@ body {
   color: white;
 }
 
-/* Cajas inferiores Galería 1 */
+/* Animación de fondo en caja con numeros */
 
-#Img4-Gal1 {
+#Contador {
+  height: 350px;
+  width: auto;
+  margin: 25px -8px 0px -8px;
   position: relative;
-  left: 210px;
-  top: 10px;
 }
 
-#Img5-Gal1 {
-  position: absolute;
-  left: 530px;
-  top: 554px;
+#CajaContadorSize {
+  width: 950px;
+  height: 320px;
+  margin: auto;
+  padding: 15px;
 }
 
-#Img6-Gal1 {
+/* Animación del fondo del contador */
+
+.ContadorFoto:hover {
+  background-image: url(https://i.ibb.co/q7KL1ZQ/Fotos-Mana-Ruru.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+}
+
+.ContadorAnimado {
+  animation-name: Contador-Animado;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes Contador-Animado {
+  0% {
+    background-color: #ff40a0;
+    background-image: linear-gradient(0deg, #ff40a0 50%, #ffa040 51%);
+  }
+
+  100% {
+    background-color: #ff40a0;
+    background-image: linear-gradient(180deg, #ff40a0 50%, #ffa040 51%);
+  }
+
+}
+
+/* Texto del contador */
+
+.Titulo-Contador {
+  font-size: 28px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.Subtitulo-Contador {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.Respuestas-Contador {
+  font-size: 20px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+/* Cajas contador info */
+
+.Nombre-Titulo-Info {
+  text-align: center;
+  padding-top: 5px;
+}
+
+.Caja-Contador-Inicio {
+  text-align: center;
+  margin-right: 65%;
+}
+
+.Caja-Contador-Medio {
+  text-align: center;
+  margin-top: -9%;
+}
+
+.Caja-Contador-Final {
+  text-align: center;
+  margin-left: 65%;
+  margin-top: -9%;
+}
+
+/* Sección 3, imagen circular y texto */
+
+#Caja-ManaRuru-LoveStory {
+  margin: auto;
+  width: 800px;
+  height: 700px;
+  text-align: center;
+  position: relative;
+}
+
+#Caja-gif {
+  margin: auto;
+}
+
+#Titulo-LoveStory {
+  text-align: center;
+  text-shadow: 0px 3px 3px rgb(27, 26, 26);
+  color: white;
+  font-size: 40px;
+}
+
+#SubTitulo-LoveStory {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  color: #40ffee;
+  text-shadow: 3px 3px 6px #008277;
+}
+
+.Linea-LoveStory {
+  margin: auto;
+  background-color: black;
+  width: 150px;
+  height: 3px;
+}
+
+
+.Texto-Parrafos {
+  font-style: italic;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+#ManaRuruGif {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+#marco-de-flores {
+  background-image: url(https://i.ibb.co/zXrSCV2/marco-de-flores.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 256px;
+  height: 256px;
   position: absolute;
-  left: 850px;
-  top: 434px;
+  left: 270px;
+}
+
+#rosas-inferiores {
+  background-image: url(https://i.ibb.co/WGRHnTg/rosas-inferiores.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 320px;
+}
+
+/* Aquí comienza la galería 2 */
+
+.Img-Gal2 {
+  width: 300px;
+  height: 420px;
+  border-radius: 5px;
+  margin: 1%;
+}
+
+.ImgShort-Gal2 {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  margin: 1%;
+}
+
+.Opacidad-Gal2:hover {
+  opacity: 0.8;
+}
+
+#Galeria2 {
+  position: relative;
+  margin: auto;
+  height: 875px;
+  width: 966px;
+}
+
+/* Caja corta superior Galería 1 */
+
+#Img2-Gal2 {
+  position: relative;
+  bottom: 120px;
+}
+
+/* Texto del centro de la segunda galería */
+
+#CajaTexto-Gal2 {
+  background-image: linear-gradient(90deg, #ff40a0 48%, #ffa040 50%);
+  width: 300px;
+  height: 210px;
+  position: absolute;
+  left: 334px;
+  top: 336px;
+}
+
+.Manaka-Vertical {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  position: relative;
+  right: 80px;
+  top: 5px;
+  text-shadow: 1px 1px 5px black;
+  color: white;
+}
+
+.Ruru-Vertical {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  left: 80px;
+  bottom: 200px;
+  position: relative;
+  text-shadow: 1px 1px 5px black;
+  color: white;
+}
+
+
+.CajaTextoAnimadaGal2:hover {
+  width: 300px;
+  height: 210px;
+  cursor: grab;
+  animation-name: Sorpresa-Animada;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes Sorpresa-Animada {
+  0% {
+    background-image: url(https://i.ibb.co/M9VvSDc/image.png);
+    background-size: cover;
+  }
+
+  100% {
+    background-image: url(https://i.ibb.co/NWCt3Vj/image.png);
+    background-size: cover;
+  }
+}
+
+
+/* Fondo de caja con animación */
+
+#Cuadro-De-Animacion {
+  height: 260px;
+  width: auto;
+  margin: 0px -8px 15px -8px;
+  position: relative;
+  bottom: 20px;
+}
+
+/* Animación del Titulo Juice=Juice */
+
+.Juice-Animado {
+  text-transform: uppercase;
+  background-image: linear-gradient(-225deg,
+      red 5%,
+      orange 10%,
+      rgb(255, 197, 0) 20%,
+      white 30%,
+      pink 40%,
+      rgb(177, 156, 217) 50%,
+      purple 60%,
+      blue 70%,
+      royalblue 80%,
+      rgb(152, 255, 152) 90%,
+      rgb(0, 128, 0) 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 3s linear infinite;
+  display: inline-block;
+  font-size: 100px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.TituloJuiceGigante {
+  text-align: center;
+  text-decoration: none;
 }
 
 footer {
@@ -97,9 +589,8 @@ footer {
   font-weight: bold;
   text-align: center;
   background-color: black;
-  margin: -8px;
-  padding: 10px;
-  margin-top: 20px;
+  padding: 20px;
+  margin: 30px -8px -8px -8px;
 }
 
 /* Aquí Termina Eri */
