@@ -9,7 +9,7 @@
 
 #tituloheader {
   color: white;
-  font-size: 30px;
+  font-size: 40px;
   letter-spacing: 10px;
   position: relative;
   left: 30px;
@@ -19,12 +19,12 @@
   animation-fill-mode: inherit;
 }
 
-@keyframes letrasheader{
-  0%{
+@keyframes letrasheader {
+  0% {
     letter-spacing: 90px;
   }
 
-  100%{
+  100% {
     letter-spacing: 10px;
   }
 }
@@ -33,39 +33,39 @@
   width: 50px;
   height: 50px;
   position: relative;
-  left: 520px;
+  left: 498px;
   animation-name: imgcontrol;
   animation-duration: 4s;
   animation-fill-mode: inherit;
 }
 
-@keyframes imgcontrol{
-  0%{
+@keyframes imgcontrol {
+  0% {
     left: 200px;
   }
 
-  100%{
+  100% {
     left: 520px;
   }
 }
 
 #parte1 {
-    width: 1005px;
-    height: 540px;
-    margin: auto;
+  width: 1005px;
+  height: 540px;
+  margin: auto;
 }
 
 #cajap1 {
-    width: 96%;
-    height: 85%;
-    margin: auto;
+  width: 96%;
+  height: 85%;
+  margin: auto;
 }
 
 .imagendecaja {
-    width: 31%;
-    height: 85%;
-    margin: 1%;
-    border-radius: 5px;
+  width: 31%;
+  height: 85%;
+  margin: 1%;
+  border-radius: 5px;
 }
 
 .imagendecaja:hover {
@@ -78,37 +78,31 @@
 
 .lineasobretexto {
   margin: auto;
-  width:200px;
+  width: 200px;
   border-bottom: white;
   border-bottom-width: 3px;
   border-style: solid;
+  border-color: white;
 }
 
 #titulocentral1 {
-    text-align: center;
-    text-shadow: 0px 3px 3px rgb(27, 26, 26);
-    color:white;
-    font-size: 40px;
+  text-align: center;
+  text-shadow: 0px 3px 3px rgb(27, 26, 26);
+  color: white;
+  font-size: 40px;
 }
 
 #parte2 {
-    width: 1005px;
-    height: 350px;
-    margin: auto;
+  width: 1005px;
+  height: 350px;
+  margin: auto;
 }
 
 #titulocentral2 {
   text-align: center;
   text-shadow: 0px 3px 3px rgb(27, 26, 26);
-  color:white;
-  font-size: 40px;
-}
-
-#textoseccion2 {
-  text-align: center;
   color: white;
-  text-shadow: 0px 3px 3px rgb(27, 26, 26);
-  font-size: 25px;
+  font-size: 40px;
 }
 
 #seccion3 {
@@ -127,34 +121,27 @@
 #titulocentral3 {
   text-align: center;
   text-shadow: 0px 3px 3px rgb(27, 26, 26);
-  color:white;
+  color: white;
   font-size: 40px;
 }
 
-#textoseccion3 {
-  text-align: center;
-  color: white;
-  text-shadow: 0px 3px 3px rgb(27, 26, 26);
-  font-size: 25px;
-}
-
-@keyframes hilera{
-  0%{
+@keyframes hilera {
+  0% {
     background-image: url("https://i.ibb.co/HVyb1zJ/Manaruru4.jpg");
     opacity: 0.9;
   }
 
-  35%{
+  35% {
     background-image: url("https://i.ibb.co/2vqgr3b/Manaruru5.jpg");
     opacity: 0.9;
   }
-    
-  70%{
+
+  70% {
     background-image: url("https://i.ibb.co/Ct68wr3/Manaruru6.jpg");
     opacity: 0.9;
   }
 
-  100%{
+  100% {
     background-image: url("https://i.ibb.co/HVyb1zJ/Manaruru4.jpg");
     opacity: 0.9;
   }
@@ -186,7 +173,7 @@
 }
 
 #textoparte4 {
-  height:300px;
+  height: 300px;
   width: 1005px;
 }
 
@@ -205,28 +192,28 @@
 
 #subtrioimg1 {
   font-size: 35px;
-  color:white;
+  color: white;
   font-style: italic;
   font-weight: bold;
-  text-shadow: 2px 2px 3px black;
+  text-shadow: -1px 0px 10px black;
   margin: 20px 0px 0px 125px;
 }
 
 #subtrioimg2 {
   font-size: 35px;
-  color:white;
+  color: white;
   font-style: italic;
   font-weight: bold;
-  text-shadow: 2px 2px 3px black;
+  text-shadow: -1px 0px 10px black;
   margin: 20px 0px 0px 200px;
 }
 
 #subtrioimg3 {
   font-size: 35px;
-  color:white;
+  color: white;
   font-style: italic;
   font-weight: bold;
-  text-shadow: 2px 2px 3px black;
+  text-shadow: -1px 0px 10px black;
   margin: 20px 0px 0px 175px;
 }
 
@@ -293,6 +280,7 @@ body {
   padding: 25px;
   font-size: 30px;
   text-align: center;
+  text-shadow: 1px 1px 5px black;
 }
 
 .EnlacesDeNombre {
@@ -349,17 +337,20 @@ body {
 .Titulo-Contador {
   font-size: 28px;
   color: white;
+  text-shadow: 1px 1px 2px black;
 }
 
 .Subtitulo-Contador {
   font-size: 20px;
   font-weight: bold;
   color: white;
+  text-shadow: 1px 1px 2px black;
 }
 
 .Respuestas-Contador {
   font-size: 20px;
   color: white;
+  text-shadow: 1px 1px 2px black;
 }
 
 /* Cajas contador info */
@@ -389,10 +380,8 @@ body {
 
 #Caja-ManaRuru-LoveStory {
   margin: auto;
-  color: white;
   width: 800px;
   height: 700px;
-  font-size: 18px;
   text-align: center;
   position: relative;
 }
@@ -402,11 +391,10 @@ body {
 }
 
 #Titulo-LoveStory {
-  font-family: 'Lora', serif;
-  font-weight: bold;
-  color: #9040ff;
-  font-size: 35px;
-  text-shadow: 1px 1px 2px #5600cc;
+  text-align: center;
+  text-shadow: 0px 3px 3px rgb(27, 26, 26);
+  color: white;
+  font-size: 40px;
 }
 
 #SubTitulo-LoveStory {
@@ -416,15 +404,19 @@ body {
   text-shadow: 3px 3px 6px #008277;
 }
 
-#Linea-LoveStory {
+.Linea-LoveStory {
   margin: auto;
   background-color: black;
   width: 150px;
   height: 3px;
 }
 
-#Texto-LoveStory {
+
+.Texto-Parrafos {
   font-style: italic;
+  font-size: 20px;
+  color: white;
+  text-align: center;
 }
 
 #ManaRuruGif {
@@ -507,7 +499,6 @@ body {
   top: 5px;
   text-shadow: 1px 1px 5px black;
   color: white;
-
 }
 
 .Ruru-Vertical {
@@ -598,7 +589,7 @@ footer {
   font-weight: bold;
   text-align: center;
   background-color: black;
-  padding: 10px;
+  padding: 20px;
   margin: 30px -8px -8px -8px;
 }
 
